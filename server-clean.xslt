@@ -42,7 +42,6 @@
     <!--
     <xsl:template match="ThingSaveData[ParentReferenceId = 0 and PrefabName='ItemLabeller']" />
     -->
-    <xsl:template match="ThingSaveData[ParentReferenceId = 0 and PrefabName='']" />
 
     <xsl:template match="ThingSaveData[ParentReferenceId = 0 and PrefabName='ItemMiningDrill']" />
 
@@ -66,9 +65,6 @@
     <xsl:template match="ThingSaveData[ParentReferenceId = 0 and PrefabName='CartridgeNetworkAnalyser']" />
     <xsl:template match="ThingSaveData[ParentReferenceId = 0 and PrefabName='UniformOrangeJumpSuit']" />
     <xsl:template match="ThingSaveData[ParentReferenceId = 0 and PrefabName='ItemGasFilterCarbonDioxide']" />
-    <xsl:template match="ThingSaveData[ParentReferenceId = 0 and PrefabName='']" />
-    <xsl:template match="ThingSaveData[ParentReferenceId = 0 and PrefabName='']" />
-    <xsl:template match="ThingSaveData[ParentReferenceId = 0 and PrefabName='']" />
 
     <xsl:key name="childs" match="/WorldData/Things/ThingSaveData" use="ParentReferenceId" />
 

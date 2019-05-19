@@ -46,6 +46,8 @@ Windows
   -o:clean-world.xml
 ```
 
+A program like WinMerge can be useful to see the changes the XSLT filter made.
+
 ## Filters
 
 ### server-clean2.xslt

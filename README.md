@@ -26,9 +26,9 @@ Run server-clean2.xslt on world.xml:
 java -cp /opt/saxon/saxon9he.jar net.sf.saxon.Transform \
   -s:world.xml \
   -xsl:/opt/stationeers-xslt-filter/server-clean2.xslt \
-  -o:world.new.xml
-rm -f world.xml
-mv world.new.xml world.xml
+  -o:clean-world.xml
+mv world.xml world.xml.bak
+mv clean-world.xml world.xml
 ```
 
 ## Filters

@@ -55,3 +55,7 @@ A program like WinMerge can be useful to see the changes the XSLT filter made.
 * Removes starter items laying on the ground
 * Removes ore >= 25 away from (0, 0, 0)
 * Removes items >= 250 away from (0, 0, 0)
+
+### teleport-junk.xslt
+
+Experimental. Teleports items on the ground above a sign named "Junk".

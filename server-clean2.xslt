@@ -24,11 +24,11 @@
         </xsl:copy> -->
     </xsl:template>
 
-    <xsl:template match="/WorldData/Game">
+    <!-- <xsl:template match="/WorldData/Game">
       <out>
       <xsl:copy-of select="$h/item"/>
       </out>
-    </xsl:template>
+    </xsl:template> -->
 
 <!-- 11021 -->
     <xsl:key name="junk" match="ThingSaveData[PrefabName = $junks]" use="ReferenceId" />

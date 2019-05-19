@@ -2,6 +2,11 @@
 
 ## Installation
 
+Requirements:
+
+* Java
+* Saxon
+
 CentOS
 
 ```
@@ -31,5 +36,5 @@ mv world.new.xml world.xml
 ### server-clean2.xslt
 
 * Removes starter items laying on the ground
-* Removes all ore > 25 away from (0, 0, 0)
-* Removes all items > 250 away from (0, 0, 0)
+* Removes ore >= 25 away from (0, 0, 0)
+* Removes items >= 250 away from (0, 0, 0)

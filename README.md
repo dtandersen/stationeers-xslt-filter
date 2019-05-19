@@ -15,8 +15,13 @@ git clone https://github.com/dtandersen/stationeers-xslt-filter.git
 
 ## Run
 
+Run server-clean2.xslt on world.xml:
+
 ```
-java -cp /opt/saxon/saxon9he.jar net.sf.saxon.Transform -s:world.xml -xsl:/opt/stationeers-xslt-filter/server-clean2.xslt -o:world.new.xml
+java -cp /opt/saxon/saxon9he.jar net.sf.saxon.Transform \
+  -s:world.xml \
+  -xsl:/opt/stationeers-xslt-filter/server-clean2.xslt \
+  -o:world.new.xml
 rm -f world.xml
 mv world.new.xml world.xml
 ```
